@@ -38,3 +38,8 @@ to check if the service sucessfully started
 ```bash
 systemctl status timelapse
 ```
+
+
+## Resources and guides
+
+- [set up RTC](https://learn.adafruit.com/adding-a-real-time-clock-to-raspberry-pi/set-rtc-time)
