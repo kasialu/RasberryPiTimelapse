@@ -32,3 +32,9 @@ and reboot by
 ```bash
 sudo reboot
 ```
+
+to check if the service sucessfully started
+
+```bash
+systemctl status timelapse
+```
