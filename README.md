@@ -19,11 +19,11 @@ to stop the process press ``ctrl+c``
 
 ## Service
 
-To enable timelapse script on boot create a service by copying ``timelapse.servise`` to
-``/lib/systemd/system/timelapse.servise``. Enable  and start the service
+To enable timelapse script on boot create a service by copying ``timelapse.service`` to
+``/lib/systemd/system/timelapse.service``. Enable  and start the service
 
 ```bash
-sudo systemctl deamon-reload
+sudo systemctl daemon-reload
 sudo systemctl enable timelapse.service
 ```
 
